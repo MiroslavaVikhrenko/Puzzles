@@ -3,24 +3,41 @@
     internal class Program
     {
         /*
-         >Understand when to create generic specialization
-         >Understand the semantic rules of generic specialization
-         >Understand how the compiler chooses methods among generic and non-generic versions
+         > Understand when to create generic specialization
+         > Understand the semantic rules of generic specialization
+         > Understand how the compiler chooses methods among generic and non-generic versions
 
          Original output: 
-        Specialization: In B
-        Generic: In D
+         Specialization: In B
+         Generic: In D
+
+         KEY POINTS:
+         > Any type can be substituted for a Type Parameter
+         > The compiler generates an exact match for every Type parameter
+         > A non-generic specialization is only a better method if the type is an exact match
          */
         static void Main(string[] args)
         {
             var driver = new Engine();
 
-            var parm = new B();
+            //Ver 1 Specialization: In B
+            //var parm = new B();
+
+            //Ver 2 Specialization: In B
+            dynamic parm = new B();
             var result = driver.DoWork(parm);
 
             Console.WriteLine(result);
 
-            var parm2 = new D();
+            //Ver 1 Generic: In D
+            //var parm2 = new D();
+
+            //Ver 2 Specialization: In D
+            //B parm2 = new D();
+
+            //Ver 3 Generic: In D
+            dynamic parm2 = new D();
+
             result = driver.DoWork(parm2);
 
             Console.WriteLine(result);
