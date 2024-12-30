@@ -9,6 +9,11 @@
          Original code results in:
          System.ArrayTypeMismatchException: 
         'Attempted to access an element as a type incompatible with the array.'
+
+         KEY POINTS:
+         > Arrays allow covariance and contravariance, but NOT safely
+         > Generics enforce safe covariance and contravariance
+         > In earlier versions (<C# 4.0) generics were invariant
          */
         static void Main(string[] args)
         {
@@ -33,9 +38,7 @@
                 Console.WriteLine(item);
             }
 
-            //Output:
-            //Puzzle4_Generics_and_Variance.Point2D
-            //Puzzle4_Generics_and_Variance.Point2D
+            
 
             Console.ReadKey();
         }
@@ -54,11 +57,26 @@
         //}
 
         //Fix #1 
+        //Output:
+        //Puzzle4_Generics_and_Variance.Point2D
+        //Puzzle4_Generics_and_Variance.Point2D
         public static IEnumerable<Point2D> Scale(IEnumerable<Point2D> values, int scaleFactor)
         {
             foreach (var value  in values) 
             {
                 yield return new Point2D { X = value.X *  scaleFactor, Y = value.Y * scaleFactor };
+            }
+        }
+
+        //Fix #2 
+        //Output:
+        //Puzzle4_Generics_and_Variance.Point3D
+        //Puzzle4_Generics_and_Variance.Point3D
+        public static IEnumerable<Point3D> Scale(IEnumerable<Point3D> values, int scaleFactor)
+        {
+            foreach (var value in values)
+            {
+                yield return new Point3D { X = value.X * scaleFactor, Y = value.Y * scaleFactor, Z = value.Z * scaleFactor };
             }
         }
     }
