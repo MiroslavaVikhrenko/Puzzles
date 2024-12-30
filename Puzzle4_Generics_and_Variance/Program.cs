@@ -12,26 +12,53 @@
          */
         static void Main(string[] args)
         {
-            var storage = new Point3D[]
+            //ver1
+            //var storage = new Point3D[]
+            //{
+            //    new Point3D{X = 1, Y = 2, Z = 3},
+            //    new Point3D{X = 4, Y = 5, Z = 6}
+            //};
+
+            //ver2
+            var storage = new List<Point3D>
             {
                 new Point3D{X = 1, Y = 2, Z = 3},
                 new Point3D{X = 4, Y = 5, Z = 6}
             };
 
-            Scale(storage, 2);
+            var storageResult = Scale(storage, 2);
+
+            foreach ( var item in storageResult )
+            {
+                Console.WriteLine(item);
+            }
+
+            //Output:
+            //Puzzle4_Generics_and_Variance.Point2D
+            //Puzzle4_Generics_and_Variance.Point2D
 
             Console.ReadKey();
         }
 
-        public static void Scale(Point2D[] values, int scaleFactor)
+        //Results in System.ArrayTypeMismatchException
+        //public static void Scale(Point2D[] values, int scaleFactor)
+        //{
+        //    for (int i = 0; i < values.Length; i++)
+        //    {
+        //        values[i] = new Point2D
+        //        {
+        //            X = values[i].X * scaleFactor,
+        //            Y = values[i].Y * scaleFactor
+        //        };
+        //    }
+        //}
+
+        //Fix #1 
+        public static IEnumerable<Point2D> Scale(IEnumerable<Point2D> values, int scaleFactor)
         {
-            for (int i = 0; i < values.Length; i++)
+            foreach (var value  in values) 
             {
-                values[i] = new Point2D
-                {
-                    X = values[i].X * scaleFactor,
-                    Y = values[i].Y * scaleFactor
-                };
+                yield return new Point2D { X = value.X *  scaleFactor, Y = value.Y * scaleFactor };
             }
         }
     }
