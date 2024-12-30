@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle4_Generics_and_Varian
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle5_Generics_Constraints_and_Overloads", "Puzzle5_Generics_Constraints_and_Overloads\Puzzle5_Generics_Constraints_and_Overloads.csproj", "{4B6299DF-2DC8-4596-9195-3D18976DD1B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle6_Overloading_Base_Class_Methods", "Puzzle6_Overloading_Base_Class_Methods\Puzzle6_Overloading_Base_Class_Methods.csproj", "{9EF7A497-E385-4A5A-8D72-CA46CC1854D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4B6299DF-2DC8-4596-9195-3D18976DD1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B6299DF-2DC8-4596-9195-3D18976DD1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B6299DF-2DC8-4596-9195-3D18976DD1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF7A497-E385-4A5A-8D72-CA46CC1854D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF7A497-E385-4A5A-8D72-CA46CC1854D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF7A497-E385-4A5A-8D72-CA46CC1854D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF7A497-E385-4A5A-8D72-CA46CC1854D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
