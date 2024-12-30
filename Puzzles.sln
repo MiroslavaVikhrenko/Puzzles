@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzles", "Puzzles\Puzzles.csproj", "{DCDF91FC-7FC8-46C0-9371-89B177C2C31C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle2_GenericsConversions", "Puzzle2_GenericsConversions\Puzzle2_GenericsConversions.csproj", "{09F8FC5C-8C7D-4415-88A9-4A22023AA1E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DCDF91FC-7FC8-46C0-9371-89B177C2C31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCDF91FC-7FC8-46C0-9371-89B177C2C31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCDF91FC-7FC8-46C0-9371-89B177C2C31C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F8FC5C-8C7D-4415-88A9-4A22023AA1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F8FC5C-8C7D-4415-88A9-4A22023AA1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F8FC5C-8C7D-4415-88A9-4A22023AA1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F8FC5C-8C7D-4415-88A9-4A22023AA1E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
