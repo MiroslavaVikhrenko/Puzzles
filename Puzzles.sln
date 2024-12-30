@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle2_GenericsConversions
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle3_Generics_and_Specialization", "Puzzle3_Generics_and_Specialization\Puzzle3_Generics_and_Specialization.csproj", "{5D202EB2-843F-47F9-94E1-0AB2F73BB5EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle4_Generics_and_Variance", "Puzzle4_Generics_and_Variance\Puzzle4_Generics_and_Variance.csproj", "{77BF4373-79F0-49C2-B5AA-6353700E76F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5D202EB2-843F-47F9-94E1-0AB2F73BB5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D202EB2-843F-47F9-94E1-0AB2F73BB5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D202EB2-843F-47F9-94E1-0AB2F73BB5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77BF4373-79F0-49C2-B5AA-6353700E76F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BF4373-79F0-49C2-B5AA-6353700E76F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BF4373-79F0-49C2-B5AA-6353700E76F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BF4373-79F0-49C2-B5AA-6353700E76F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
