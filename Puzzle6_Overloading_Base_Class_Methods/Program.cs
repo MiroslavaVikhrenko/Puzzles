@@ -9,6 +9,12 @@
 
          Original code output:
          D: 5
+
+         KEY POINTS:
+         > Derived class methods are better matches than base class methods
+         > Methods are resolved on the compile time type
+         > "Compile time type" is also referred to as the "static type"
+
          */
         static void Main(string[] args)
         {
