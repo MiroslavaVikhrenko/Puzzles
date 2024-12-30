@@ -8,6 +8,11 @@
 
          Original code output:
          Doing Bar things
+         
+         KEY POINTS:
+         > Constraints do NOT participate in choosing the best method match
+         > Constraints are checked after the best method is determined
+         > Overloading on constraints can introduce ambiguity
          */
         static void Main(string[] args)
         {
@@ -27,9 +32,12 @@
             //Foo f = new Foo();
             //f.Extend();
 
-            //ver5 Doing Foo things
+            //ver 5 Doing Foo things
+            //var f = new Foo();
+            //((IFoo)f).Extend();
+
             var f = new Foo();
-            ((IFoo)f).Extend();
+            f.Extend();
 
             Console.ReadKey();
         }
