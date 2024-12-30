@@ -5,11 +5,20 @@
         /*
          > Start learning about Method Resolution
          > Learn how the language defines "Better Method"
-         > Learn why there is no definition for "Best Method"
+         > Learn why there is no definition for "Best Method
+
+         Original code output:
+         D: 5
          */
         static void Main(string[] args)
         {
-            int parm = 5;
+            //ver 1 D: 5
+            //int parm = 5;
+            //var obj = new D();
+            //obj.Repeat(parm);
+
+            //ver 2 B: 5
+            double parm = 5;
             var obj = new D();
             obj.Repeat(parm);
 
@@ -19,7 +28,14 @@
 
     public class B
     {
-        public void Repeat(int times)
+        //ver 1 D: 5
+        //public void Repeat(int times)
+        //{
+        //    Console.WriteLine("B: {0}", times);
+        //}
+
+        //ver 2 B: 5
+        public void Repeat(double times)
         {
             Console.WriteLine("B: {0}", times);
         }
