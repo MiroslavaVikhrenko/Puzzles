@@ -11,8 +11,25 @@
          */
         static void Main(string[] args)
         {
+            //ver 1 Doing Bar things
+            //var f = new Foo();
+            //f.Extend();
+
+            //ver 2 Doing Foo things
+            //IFoo f = new Foo();
+            //f.Extend();
+
+            //ver 3 Doing Bar things
+            //IBar f = new Foo();
+            //f.Extend();
+
+            //ver 4 Doing Bar things
+            //Foo f = new Foo();
+            //f.Extend();
+
+            //ver5 Doing Foo things
             var f = new Foo();
-            f.Extend();
+            ((IFoo)f).Extend();
 
             Console.ReadKey();
         }
