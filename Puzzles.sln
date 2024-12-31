@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle6_Overloading_Base_Cl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle7_Overloading_Methods_and_null_Parameters", "Puzzle7_Overloading_Methods_and_null_Parameters\Puzzle7_Overloading_Methods_and_null_Parameters.csproj", "{38B2C716-16B0-4450-99A8-F51BE2141C86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle8_Overloading_Methods_and_null_Parameters_Revisited", "Puzzle8_Overloading_Methods_and_null_Parameters_Revisited\Puzzle8_Overloading_Methods_and_null_Parameters_Revisited.csproj", "{D2D7405D-0A23-4A4F-A4DB-559B4B5E2DA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{38B2C716-16B0-4450-99A8-F51BE2141C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38B2C716-16B0-4450-99A8-F51BE2141C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38B2C716-16B0-4450-99A8-F51BE2141C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2D7405D-0A23-4A4F-A4DB-559B4B5E2DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D7405D-0A23-4A4F-A4DB-559B4B5E2DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D7405D-0A23-4A4F-A4DB-559B4B5E2DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D7405D-0A23-4A4F-A4DB-559B4B5E2DA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
