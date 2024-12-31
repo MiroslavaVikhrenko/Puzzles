@@ -12,6 +12,12 @@
          calling generic version
          calling generic version
          calling generic version
+
+         KEY POINTS:
+         > The compiler substitues the current static type for type parameters
+         > That results in an identity conversion
+         > However, null provides an identity conversion to any reference type
+         > An identity conversion to a non-generic parameter is better than an identity conversion to a generic parameter
          */
         static void Main(string[] args)
         {
