@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle15_Value_Types_and_Ev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle16_Dynamic_types_and_extension_methods", "Puzzle16_Dynamic_types_and_extension_methods\Puzzle16_Dynamic_types_and_extension_methods.csproj", "{7559A8DE-D2BB-4D85-9236-2463E8C60D62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle17_Creating_Dynamic_C#_Types", "Puzzle17_Creating_Dynamic_C#_Types\Puzzle17_Creating_Dynamic_C#_Types.csproj", "{FFF2A411-9164-499D-ADAF-E4D40158EB50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{7559A8DE-D2BB-4D85-9236-2463E8C60D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7559A8DE-D2BB-4D85-9236-2463E8C60D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7559A8DE-D2BB-4D85-9236-2463E8C60D62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF2A411-9164-499D-ADAF-E4D40158EB50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF2A411-9164-499D-ADAF-E4D40158EB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF2A411-9164-499D-ADAF-E4D40158EB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF2A411-9164-499D-ADAF-E4D40158EB50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
