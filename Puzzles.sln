@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle14_Value_type_semanti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle15_Value_Types_and_Event_Handlers", "Puzzle15_Value_Types_and_Event_Handlers\Puzzle15_Value_Types_and_Event_Handlers.csproj", "{AC8DE6F7-B393-49EF-95D2-2B609C97243D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle16_Dynamic_types_and_extension_methods", "Puzzle16_Dynamic_types_and_extension_methods\Puzzle16_Dynamic_types_and_extension_methods.csproj", "{7559A8DE-D2BB-4D85-9236-2463E8C60D62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{AC8DE6F7-B393-49EF-95D2-2B609C97243D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC8DE6F7-B393-49EF-95D2-2B609C97243D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC8DE6F7-B393-49EF-95D2-2B609C97243D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7559A8DE-D2BB-4D85-9236-2463E8C60D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7559A8DE-D2BB-4D85-9236-2463E8C60D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7559A8DE-D2BB-4D85-9236-2463E8C60D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7559A8DE-D2BB-4D85-9236-2463E8C60D62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
