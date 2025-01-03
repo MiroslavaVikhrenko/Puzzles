@@ -12,12 +12,24 @@
          does not contain a definition for 'DisplayPrice''
 
          KEY POINTS:
-         > 
+         > Extension methods aren't really members of a type
+         > The compiler translates calls that look like instance methods into calls to static methods
+         > The C# Runtime binder does NOT do that for CLR types
          */
         static void Main(string[] args)
         {
+            //ver 1 | results in Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+            //Alternative fix => you can keep dynamic here but then move DisplayPrice() method to the Product class
             dynamic thing = new Product { Name = "guitar", Cost = 1200 };
-            thing.DisplayPrice();
+
+            //ver 2 | output: Price of one guitar is 1200 CAD // var is not dynamic
+            //var thing = new Product { Name = "guitar", Cost = 1200 };
+ 
+            //thing.DisplayPrice();
+
+            //One more alternative fix for dynamic + extension method
+            MyExtensions.DisplayPrice(thing);
+
             Console.ReadKey();
         }
     }
